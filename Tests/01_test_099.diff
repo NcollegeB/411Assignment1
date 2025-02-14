@@ -1,0 +1,373 @@
+1,369c1
+< Node 0
+< 
+< Node 1
+< 2 63 
+< Node 2
+< 3 1 1 1 1 1 63 4 4 4 2 2 56 32 
+< Node 3
+< 1 1 2 4 
+< Node 4
+< 1 1 2 9 4 32 146 
+< Node 5
+< 2 2 1 1 1 1 4 4 4 56 9 25 175 
+< Node 6
+< 2 
+< Node 7
+< 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 4 4 4 4 4 4 9 22 22 25 25 42 58 61 30 76 67 13 56 56 109 116 132 134 136 32 166 23 184 
+< Node 8
+< 1 1 1 1 4 4 38 2 43 67 76 
+< Node 9
+< 2 2 2 4 4 42 1 
+< Node 10
+< 4 4 32 2 2 2 1 25 
+< Node 11
+< 4 4 2 2 2 23 1 1 
+< Node 12
+< 4 1 9 20 144 157 
+< Node 13
+< 2 4 4 4 
+< Node 14
+< 4 25 61 
+< Node 15
+< 2 109 
+< Node 16
+< 4 4 1 1 1 
+< Node 17
+< 4 182 
+< Node 18
+< 4 4 4 36 14 2 17 
+< Node 19
+< 1 1 23 76 
+< Node 20
+< 1 
+< Node 21
+< 4 
+< Node 22
+< 
+< Node 23
+< 1 1 32 2 23 4 
+< Node 24
+< 1 
+< Node 25
+< 
+< Node 26
+< 1 63 23 
+< Node 27
+< 1 4 4 9 109 2 2 2 99 23 
+< Node 28
+< 1 
+< Node 29
+< 2 
+< Node 30
+< 4 
+< Node 31
+< 23 2 4 81 
+< Node 32
+< 
+< Node 33
+< 23 23 25 4 4 4 151 
+< Node 34
+< 2 99 69 
+< Node 35
+< 14 1 
+< Node 36
+< 
+< Node 37
+< 4 3 2 1 1 1 1 17 36 58 
+< Node 38
+< 4 4 4 2 58 
+< Node 39
+< 1 1 4 4 58 2 
+< Node 40
+< 4 4 4 2 
+< Node 41
+< 4 4 42 1 1 25 147 2 
+< Node 42
+< 
+< Node 43
+< 32 1 1 4 47 180 
+< Node 44
+< 4 14 
+< Node 45
+< 1 4 2 
+< Node 46
+< 2 
+< Node 47
+< 4 4 38 1 
+< Node 48
+< 23 
+< Node 49
+< 4 
+< Node 50
+< 1 
+< Node 51
+< 2 32 4 4 42 
+< Node 52
+< 2 
+< Node 53
+< 1 4 
+< Node 54
+< 23 2 4 1 25 36 
+< Node 55
+< 2 1 
+< Node 56
+< 10 7 
+< Node 57
+< 1 
+< Node 58
+< 
+< Node 59
+< 1 9 
+< Node 60
+< 1 2 
+< Node 61
+< 
+< Node 62
+< 4 
+< Node 63
+< 
+< Node 64
+< 2 
+< Node 65
+< 9 
+< Node 66
+< 4 
+< Node 67
+< 1 
+< Node 68
+< 4 38 
+< Node 69
+< 4 
+< Node 70
+< 23 
+< Node 71
+< 63 
+< Node 72
+< 4 103 
+< Node 73
+< 2 2 43 4 1 1 1 1 
+< Node 74
+< 2 4 
+< Node 75
+< 1 1 
+< Node 76
+< 
+< Node 77
+< 23 97 4 
+< Node 78
+< 1 1 4 20 30 
+< Node 79
+< 9 
+< Node 80
+< 4 
+< Node 81
+< 32 2 
+< Node 82
+< 1 
+< Node 83
+< 38 
+< Node 84
+< 2 
+< Node 85
+< 56 
+< Node 86
+< 1 
+< Node 87
+< 2 
+< Node 88
+< 2 
+< Node 89
+< 4 
+< Node 90
+< 25 
+< Node 91
+< 20 
+< Node 92
+< 4 
+< Node 93
+< 1 
+< Node 94
+< 22 
+< Node 95
+< 23 
+< Node 96
+< 23 
+< Node 97
+< 
+< Node 98
+< 2 
+< Node 99
+< 
+< Node 100
+< 4 
+< Node 101
+< 61 
+< Node 102
+< 4 1 
+< Node 103
+< 
+< Node 104
+< 4 2 1 
+< Node 105
+< 1 43 
+< Node 106
+< 1 
+< Node 107
+< 2 2 4 4 
+< Node 108
+< 23 
+< Node 109
+< 
+< Node 110
+< 4 
+< Node 111
+< 1 
+< Node 112
+< 1 
+< Node 113
+< 4 
+< Node 114
+< 9 
+< Node 115
+< 2 
+< Node 116
+< 
+< Node 117
+< 1 
+< Node 118
+< 4 23 
+< Node 119
+< 1 
+< Node 120
+< 2 
+< Node 121
+< 4 
+< Node 122
+< 9 
+< Node 123
+< 2 
+< Node 124
+< 1 
+< Node 125
+< 4 
+< Node 126
+< 2 
+< Node 127
+< 2 
+< Node 128
+< 1 
+< Node 129
+< 2 
+< Node 130
+< 2 
+< Node 131
+< 4 2 
+< Node 132
+< 
+< Node 133
+< 1 
+< Node 134
+< 
+< Node 135
+< 4 
+< Node 136
+< 
+< Node 137
+< 1 
+< Node 138
+< 2 1 
+< Node 139
+< 1 
+< Node 140
+< 2 
+< Node 141
+< 25 
+< Node 142
+< 1 
+< Node 143
+< 2 
+< Node 144
+< 
+< Node 145
+< 1 
+< Node 146
+< 
+< Node 147
+< 
+< Node 148
+< 1 
+< Node 149
+< 4 
+< Node 150
+< 42 
+< Node 151
+< 97 174 
+< Node 152
+< 4 
+< Node 153
+< 4 
+< Node 154
+< 1 
+< Node 155
+< 4 1 
+< Node 156
+< 9 
+< Node 157
+< 
+< Node 158
+< 4 
+< Node 159
+< 32 144 
+< Node 160
+< 4 
+< Node 161
+< 2 
+< Node 162
+< 23 
+< Node 163
+< 4 
+< Node 164
+< 134 
+< Node 165
+< 4 
+< Node 166
+< 
+< Node 167
+< 1 
+< Node 168
+< 1 
+< Node 169
+< 25 
+< Node 170
+< 1 
+< Node 171
+< 2 
+< Node 172
+< 20 
+< Node 173
+< 2 
+< Node 174
+< 
+< Node 175
+< 
+< Node 176
+< 63 
+< Node 177
+< 1 
+< Node 178
+< 4 
+< Node 179
+< 32 
+< Node 180
+< 
+< Node 181
+< 1 
+< Node 182
+< 
+< Node 183
+< 4 
+< finish
+---
+> |A| = 136, |B| = 27, |C| = 21
+\ No newline at end of file
