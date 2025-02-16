@@ -32,6 +32,8 @@ void dfsTranspose(int node, const vector<vector<int>> &transposedAdj, vector<boo
     }
 }
 
+
+//find scc's in main graph
 vector<vector<int>> findSCCs(int n, vector<vector<int>> &adj, vector<int> &sccMap)
 {
     stack<int> finishOrder;
@@ -78,6 +80,7 @@ vector<vector<int>> findSCCs(int n, vector<vector<int>> &adj, vector<int> &sccMa
     return sccs;
 }
 
+// condensed graoh ;) with only SCC's
 vector<vector<int>> buildCondensedGraph(int n, const vector<vector<int>> &adj, const vector<int> &sccMap, int numSCCs)
 {
     vector<set<int>> condensedGraphSet(numSCCs);
@@ -90,7 +93,7 @@ vector<vector<int>> buildCondensedGraph(int n, const vector<vector<int>> &adj, c
         for (int v : adj[u])
         {
             int sccU = sccMap[u], sccV = sccMap[v];
-            if (sccU != sccV) // Only add edges between SCCs
+            if (sccU != sccV) // uhhh onnly add edges between SCCs
             {
                 if (condensedGraphSet[sccU].count(sccV) == 0)
                 {
@@ -114,21 +117,21 @@ void classifySCCs(int numSCCs, const vector<vector<int>> &condensedGraph, vector
 {
     for (int i = 0; i < numSCCs; i++)
     {
-        if (inDegree[i] == 0 && outDegree[i] > 0) // No incoming edges but has outgoing → Set A
+        if (inDegree[i] == 0 && outDegree[i] > 0) // No incoming edges but has outgoing = Set A
         {
             setA.push_back(i);
         }
-        else if (outDegree[i] == 0) // No outgoing edges → Set B
+        else if (outDegree[i] == 0) // No outgoing edges set B
         {
             setB.push_back(i);
         }
-        else // Otherwise → Set C
+        else // Otherwise Set C
         {
             setC.push_back(i);
         }
     }
 
-    // Special case: If there's only **one SCC** containing **all nodes**, it's **entirely Set C**
+    // Special case: If theres only one SCC containing all nodes, it'sentirely Set C
     if (numSCCs == 1)
     {
         setA.clear();
