@@ -32,8 +32,7 @@ void dfsTranspose(int node, const vector<vector<int>> &transposedAdj, vector<boo
     }
 }
 
-
-//find scc's in main graph
+// find scc's in main graph
 vector<vector<int>> findSCCs(int n, vector<vector<int>> &adj, vector<int> &sccMap)
 {
     stack<int> finishOrder;
@@ -172,61 +171,61 @@ int main()
     vector<int> setA, setB, setC;
     classifySCCs(sccs.size(), condensedGraph, inDegree, outDegree, setA, setB, setC);
 
-    cout << "SCCs:\n";
-    for (const auto &scc : sccs)
-    {
-        cout << "{ ";
-        for (int node : scc)
-        {
-            cout << (node + 1) << " ";
-        }
-        cout << "}\n";
-    }
-
+    // cout << "SCCs:\n";
+    /*  for (const auto &scc : sccs)
+     {
+         cout << "{ ";
+         for (int node : scc)
+         {
+             cout << (node + 1) << " ";
+         }
+         cout << "}\n";
+     }
+  */
     int aCount = 0;
-    cout << "\nSet A (No Incoming Edges): ";
+
     for (int sccID : setA)
     {
-        cout << "{ ";
+        // cout << "{ ";
         for (int node : sccs[sccID])
         {
-            cout << (node + 1) << " ";
+            // cout << (node + 1) << " ";
             aCount += 1;
         }
-        cout << "} ";
+        // cout << "} ";
     }
-    cout << endl;
+    // cout << endl;
 
     int bCount = 0;
-    cout << "Set B (Remaining SCCs): ";
+
     for (int sccID : setB)
     {
-        cout << "{ ";
+        //  cout << "{ ";
         for (int node : sccs[sccID])
         {
-            cout << (node + 1) << " ";
+            //  cout << (node + 1) << " ";
             bCount += 1;
         }
-        cout << "} ";
+        //  cout << "} ";
     }
-    cout << endl;
+    //  cout << endl;
 
     int cCount = 0;
-    cout << "Set C (At Least One Outgoing Edge): ";
+
     for (int sccID : setC)
     {
-        cout << "{ ";
+        // cout << "{ ";
         for (int node : sccs[sccID])
         {
-            cout << (node + 1) << " ";
+            // cout << (node + 1) << " ";
             cCount += 1;
         }
 
-        cout << "} ";
+        //  cout << "} ";
     }
-    cout << endl;
+    //   cout << endl;
 
-    cout << "|A| = " << aCount << ", |B| = " << bCount << ", |C| = " << cCount << endl;
+    cout << "|A| = " << aCount << ", |B| = " << bCount << ", |C| = " << cCount;
 
     return 0;
 }
